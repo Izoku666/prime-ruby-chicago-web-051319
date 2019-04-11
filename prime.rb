@@ -5,7 +5,7 @@ def prime?(x)
   if primes.include?(x) == false || x == 1 || x == 0
       return true
   
-  elsif(Math.sqrt(x).is_integer) # a prime number is always an int
+  elsif Math.sqrt(x).is_integer == true
     return false
     
   else
