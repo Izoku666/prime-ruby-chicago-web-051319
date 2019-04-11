@@ -10,6 +10,7 @@ def prime?(x)
       return true
   end
   
+  #divide until it can be determined
   for i in primes
       if x % i == 0
         return false
