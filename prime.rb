@@ -15,7 +15,10 @@ def prime?(x)
   #puts "#{x} % #{i} = #{x % i}"
       if x % i == 0
         return false
-      elsif 
+      end
       
   end
 end
+
+
+  
