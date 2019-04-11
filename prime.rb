@@ -7,12 +7,7 @@ def prime?(x)
   
   elsif Math.sqrt(x).is_integer == true
     return false
-    
   else
-    for i in primes
-      if x % i == 0
-        return false
-        break
-      end
+    return false
   end
 end
