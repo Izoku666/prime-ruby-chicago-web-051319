@@ -19,11 +19,3 @@ def prime?(x)
       
   end
 end
-
-def rec_mod_by(x , y)
-  if x % y > 7
-    rec_div_by(x , y)
-  else return x % y
-  end
-end
-  
