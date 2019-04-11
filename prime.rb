@@ -5,6 +5,15 @@ def prime?(x)
   primes = [2,3,5,7]
   if(Math.sqrt(x).is_integer)
     return false
+    
   else
+    for i in primes
+      if(i == x)
+        return true
+        break
+      elsif (num > 10)
+        for y in 2..(n/2 + 1)
+        if 
+    end
   end
 end
