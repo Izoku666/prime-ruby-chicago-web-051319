@@ -8,9 +8,11 @@ def prime?(x)
     return false
   
   else
-    for i in 2..(x - 1)
-      if x % i == 0
-      return false
+    if i < 2
+      for i in 2..(x - 1)
+        if x % i == 0
+          return false
+      end
     end
   end
   
