@@ -11,7 +11,7 @@ def prime?(x)
   end
   
   for i in primes
-    if(x % i == )
+    if()
   end
 end
 
