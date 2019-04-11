@@ -1,5 +1,5 @@
 # Add  code here!
-require 'math'
+require 'Math'
 
 def prime?(x)
   # Checks to see if it is an original prime
