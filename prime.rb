@@ -8,9 +8,9 @@ def prime?(x)
   elsif primes.include?(x) == false || x == 1 || x == 0
       return true
   
-  elsif Math.sqrt(x).is_integer == true
-    return false
   else
+    y = Math.sqrt(x)
+    if Math,is_integer(y) return false
     return false
   end
 end
