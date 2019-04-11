@@ -14,11 +14,6 @@ def prime?(x)
       if x % i == 0
         return false
         break
-      elsif (x > 10)
-        for y in 2..(num/2 + 1)
-          if num % i == 0
-            return false
-            break
-        end
-    end
+      end
   end
+end
