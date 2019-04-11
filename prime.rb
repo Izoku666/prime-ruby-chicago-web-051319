@@ -8,7 +8,7 @@ def prime?(x)
     
   else
     for i in primes
-      if(i == x)
+      if(primes.include?(x))
         return true
         break
       elsif (num > 10)
