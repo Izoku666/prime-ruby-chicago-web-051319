@@ -8,7 +8,7 @@ def prime?(x)
     return false
   
   else
-    for i in 2..(x + 1)
+    for i in 2..(x - 1)
       
       return false
     end
