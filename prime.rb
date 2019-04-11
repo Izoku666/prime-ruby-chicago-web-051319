@@ -2,7 +2,6 @@
 
 def prime?(x)
   # Checks to see if it is an original prime
-  
   primes = [2,3,5,7]
   if(primes.include?(x) == false || x == 1 || x == 0)
       return true
@@ -16,8 +15,11 @@ def prime?(x)
         return false
         break
       elsif (x > 10)
-        for y in 2..(n/2 + 1)
-        
+        for y in 2..(num/2 + 1)
+          if num % i == 0
+            return false
+            break
+        end
     end
   end
 end
