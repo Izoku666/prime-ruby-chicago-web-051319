@@ -9,8 +9,6 @@ def prime?(x)
       return true
   
   else
-    y = Math.sqrt(x)
-    if Math,is_integer(y) return false
     return false
   end
 end
