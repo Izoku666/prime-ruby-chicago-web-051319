@@ -13,7 +13,7 @@ def prime?(x)
         break
       elsif (num > 10)
         for y in 2..(n/2 + 1)
-        if 
+        
     end
   end
 end
