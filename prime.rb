@@ -11,7 +11,7 @@ def prime?(x)
   end
   
   for i in primes
-    if()
+    if n * (n/2)
   end
 end
 
