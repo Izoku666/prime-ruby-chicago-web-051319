@@ -10,13 +10,8 @@ def prime?(x)
       return true
   end
   
-  #divide until it can be determined
   for i in primes
-  #puts "#{x} % #{i} = #{x % i}"
-      if x % i == 0
-        return false
-      end
-      
+    if(x % i == )
   end
 end
 
