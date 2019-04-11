@@ -7,12 +7,13 @@ def prime?(x)
   if(primes.include?(x) == false || x == 1 || x == 0)
       return true
   
-  elsif(Math.sqrt(x).is_integer)
+  elsif(Math.sqrt(x).is_integer) # a prime number is always an int
     return false
     
   else
     for i in primes
-      if 
+      if x % i == 0
+        return false
         break
       elsif (num > 10)
         for y in 2..(n/2 + 1)
