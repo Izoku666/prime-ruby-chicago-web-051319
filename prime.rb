@@ -5,5 +5,6 @@ def prime?(x)
   primes = [2,3,5,7]
   if(Math.sqrt(x).is_integer)
     return false
+  else
   end
 end
