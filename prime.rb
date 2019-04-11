@@ -14,12 +14,15 @@ def prime?(x)
   for i in primes
       if x % i == 0
         return false
-      elsif x % i != 0
-        return prime?(x % i)
-      else
-        next
-      end
+      elsif 
       
+  end
+end
+
+def rec_mod_by(x , y)
+  if x % y > 7
+    rec_div_by(x , y)
+  else return x % y
   end
 end
   
