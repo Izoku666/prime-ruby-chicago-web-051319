@@ -15,7 +15,7 @@ def prime?(x)
       if x % i == 0
         return false
         break
-      elsif (num > 10)
+      elsif (x > 10)
         for y in 2..(n/2 + 1)
         
     end
