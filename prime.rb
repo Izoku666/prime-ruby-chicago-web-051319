@@ -12,7 +12,7 @@ def prime?(x)
   
   #divide until it can be determined
   for i in primes
-  puts "#{x} % #{i} = #{x % i}"
+  #puts "#{x} % #{i} = #{x % i}"
       if x % i == 0
         return false
       elsif 
